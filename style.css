@@ -1,0 +1,67 @@
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+}
+
+h1, h2  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+#hours, #minutes, #seconds {
+    font-size: 2em;
+}
+
+#button-start {
+    background: #00FF00;
+    color: #000000;
+    font-weight: 1000;
+    font-size: 10;
+    border: solid 4.5px #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+}
+
+#button-stop {
+    background: #FF0000;
+    color: #000000;
+    font-weight: 1000;
+    border: solid 4.5px #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+}
+
+#button-reset {
+    background: #FFFF00;
+    color: #000000;
+    font-weight: 1000;
+    border: solid 4.5px #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+}
+
+button {
+    &:hover {
+        outline: none;
+        background: #b22222;
+        border: solid 1px #b22222;
+        color: #FFFFFF;
+    }
+}
