@@ -1,11 +1,11 @@
 body {
     background: #600;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    height:100%;
+    height: 100%;
 }
 
 .wrapper {
-    width: 800px;
+    width: 700px;
+    height: 100%;
     margin: 250px auto;
     color: #FFFFFF;
     background-color: #000000;
@@ -19,9 +19,10 @@ h1, h2  {
     font-weight: 100;
     font-size: 2.6em;
     text-transform: uppercase;
+    padding: 5px 5px 5px 5px;
 }
 
-#hours, #minutes, #seconds {
+p {
     font-size: 2em;
 }
 
@@ -29,38 +30,53 @@ h1, h2  {
     background: #00FF00;
     color: #000000;
     font-weight: 1000;
-    border: solid 4.5px #FFFFFF;
+    border: solid 10px #FFFFFF;
+    border-radius: 25px;
     cursor: pointer;
     font-size: 1.5em;
     padding: 18px 10px;
     width: 180px;
     margin: 10px;
+    transition: .4s ease-in-out;
 }
+
+#button-start:hover {
+    background-color: #FFFFFF;
+}
+
 
 #button-stop {
     background: #FF0000;
     color: #000000;
     font-weight: 1000;
-    border: solid 4.5px #FFFFFF;
+    border: solid 10px #FFFFFF;
+    border-radius: 25px;
     cursor: pointer;
     font-size: 1.5em;
     padding: 18px 10px;
     width: 180px;
     margin: 10px;
+    transition: .4s ease-in-out;
+}
+
+#button-stop:hover {
+    background-color: #FFFFFF;
 }
 
 #button-reset {
     background: #FFFF00;
     color: #000000;
     font-weight: 1000;
-    border: solid 4.5px #FFFFFF;
+    border: solid 10px #FFFFFF;
+    border-radius: 25px;
     cursor: pointer;
     font-size: 1.5em;
     padding: 18px 10px;
     width: 180px;
     margin: 10px;
+    transition: .4s ease-in-out;
 }
 
-.buttons:hover {
-    opacity: 1;
+#button-reset:hover {
+    background-color: #FFFFFF;
 }
