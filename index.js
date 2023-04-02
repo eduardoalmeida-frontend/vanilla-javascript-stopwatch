@@ -15,6 +15,7 @@ function updateTimer () {
 
     if (timerLeft <= 0) {
         clearInterval(intervalID);
+        alert("Hora do descanso.")
     }
 }
 
