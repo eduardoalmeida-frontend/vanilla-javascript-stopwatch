@@ -5,7 +5,6 @@ const timer = document.querySelector('#timer');
 const timerInitial = timer.innerHTML;
 
 let timerLeft = parseInt(timer.innerHTML.split(':')[0] * 60 + parseInt(timer.innerHTML.split(':')[1]));
-const audio = new Audio("./assets/salamisound-7465267-alarm-clock-ringing-pitch-up.mp3");
 
 let intervalID;
 
@@ -16,7 +15,6 @@ function updateTimer () {
 
     if (timerLeft <= 0) {
         clearInterval(intervalID);
-        audio.play();
     }
 }
 
@@ -29,7 +27,6 @@ startButton.addEventListener("click", () => {
 
 stopButton.addEventListener("click", () => {
     clearInterval(intervalID);
-    audio.pause();
 })
 
 resetButton.addEventListener("click", () => {
